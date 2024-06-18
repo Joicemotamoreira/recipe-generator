@@ -7,41 +7,45 @@
     <title>Sandwich Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Make a sandwich!</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Make a sandwich!</h1>
+      </header>
 
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter an ingredient.."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter an ingredient.."
+            autofocus
+            required
+            autocomplete="off"
+            class="ingredient"
+          />
+          <input type="submit" class="submitButton" />
+        </form>
 
-      <div>The recipe will go here.</div>
-    </main>
-    <footer>
-      This AI project was coded with 🧡 by
-      <a href="https://github.com/Joicemotamoreira" target="_blank"
-        >Joice Mota</a
-      >
-      and is
-      <a
-        href="https://github.com/Joicemotamoreira/recipe-generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://recipe-generator-by-joice.netlify.app/" target="_blank"
-        >Netlify.</a
-      >
-    </footer>
+        <div class="recipe">The recipe will go here.</div>
+      </main>
+      <footer>
+        This AI project was coded with 💜 by
+        <a href="https://github.com/Joicemotamoreira" target="_blank"
+          >Joice Mota</a
+        >
+        <br />
+        and is
+        <a
+          href="https://github.com/Joicemotamoreira/recipe-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://recipe-generator-by-joice.netlify.app/" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
