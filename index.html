@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Sandwich Generator</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form action="">
+        <form action="" id="recipe-generator">
           <input
             type="text"
             placeholder="Enter an ingredient.."
@@ -25,7 +26,7 @@
           <input type="submit" class="submitButton" />
         </form>
 
-        <div class="recipe">The recipe will go here.</div>
+        <div class="recipe" id="recipe"></div>
       </main>
       <footer>
         This AI project was coded with 💜 by
